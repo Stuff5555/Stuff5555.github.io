@@ -27,7 +27,7 @@ function getCookie(cname) {
 
 var locations = prompt(
   'Введите список городов, разделённый запятыми:',
-  getCookie('locations') || ''
+  getCookie('locations') || 'Москва, Самара, Омск'
 );
 setCookie('locations', locations, 31);
 locations = locations.split(',');
